@@ -1,6 +1,6 @@
 #include "avl.h"
 #include "list.h"
-#include <stdio.h>
+
 Treenode* TreenodeCreate(void *key,uint32 keysize,void *value,uint32 valuesize)
 {
     Treenode *node;
